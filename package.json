@@ -1,0 +1,28 @@
+{
+  "name": "cruzroja",
+  "version": "1.0.0",
+  "description": "Cruz Roja Web Proyect",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isael-garcia/Web-Page.git"
+  },
+  "author": "Isael G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isael-garcia/Web-Page/issues"
+  },
+  "homepage": "https://github.com/isael-garcia/Web-Page#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0"
+  },
+  "browsersList":[
+    "> 1%",
+    "last 2 versions"
+  ]
+}
