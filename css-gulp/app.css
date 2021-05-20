@@ -472,7 +472,7 @@
   color: white;
 }
 
-.btn {
+.btnRed {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -501,7 +501,7 @@
   font-weight: 700;
 }
 
-.btn:hover, .btn:focus {
+.btnRed:hover, .btn:focus {
   color: #fff;
   outline: 0;
 }

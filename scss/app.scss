@@ -461,7 +461,7 @@ $transition: .2s;
 
 //botones cartera de servicios
 
-.btn {
+.btnRed {
   box-sizing: border-box;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -489,7 +489,7 @@ $transition: .2s;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
-.btn:hover, .btn:focus {
+.btnRed:hover, .btn:focus {
   color: #fff;
   outline: 0;
 }
