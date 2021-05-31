@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 $color-header: #0d0d0d;
 $color-text: #404040;
@@ -17,6 +19,12 @@ $color-btn-text: #3363ff;
 $color-btn-background: #e6ecff;
 
 $transition: .2s;
+
+//font size
+
+.letraNormal{
+  font-family: 'Roboto', sans-serif;
+}
 
 
 //barra de Contacto portal conocenos etc.
@@ -154,7 +162,7 @@ $transition: .2s;
   font-family: 'Quicksand', sans-serif;
 }
 
-.subrayado a,h5{
+  .subrayado a,h5{
   background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -162,13 +170,24 @@ $transition: .2s;
     transition: background-size .3s;
 }
 
-.subrayado a:hover, .subrayado a:focus{
+  .subrayado a:hover, .subrayado a:focus{
   background-size: 100% 2px;
 }
 
-.imagen-saturada:hover img{
+  .imagen-saturada:hover img{
   filter: saturate(180%);
+}
 
+
+.subrayadoNormal{
+  background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.subrayado:hover{
+  background-size: 100% 2px;
 }
 
 .con-img:hover img{

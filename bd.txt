@@ -1,0 +1,45 @@
+cita{
+    _id             :c1,
+    medico_id       :[1001],
+    paciente_id     :[p101],
+    especialidad_id :[e10]
+    fecha_atencion  :"04-05-2021"
+    hora_atencion   :"16:00:00"
+    estado          :"Esperando fecha para atención"
+    obsevaciones    :"sin ningun detalle"
+
+}
+especialidad{
+    _id                  :"e10";
+    nombre               :"cardiología",
+    descripción          :"Citas solo martes y jueves",
+    medicos_especialistas:[1001],
+    citas                :[c1]  
+}
+paciente{
+    _id             :p101,
+    nombre          :"Isael G",
+    apellidos       :"Garcia N"
+    DNI             :"Credencial Oficial"
+    Direccion       :"Tejocotes 31a Col Trafico"
+    Telefono        :"55987456"
+    Sexo            :"M"
+    birthday        :"29-12-1997"
+    fechaRegistro   :"31-05-2021"
+    cita_id         :[c1]
+}
+
+medico{
+    _id         :1001,
+    nombre       :"Gerardo",
+    apellidos    :"Vargas S",
+    DNI          :"Credencial Oficial",
+    correo       :"drvargas@gmail.com",
+    telefono     :"56897411",
+    sexo         :"M",
+    birthday     :"10-10-1978",
+    fechaRegistro:"20-05-2021 19:00:00hrs",
+    activo       :"true",
+    especialidad :[e10]
+    citas        :[c1,c6]  
+}
