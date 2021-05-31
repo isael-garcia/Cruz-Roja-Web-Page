@@ -1,0 +1,13 @@
+Diseño de APIs
+
+GET /citas/:id  -Datos de la cita seleccionada
+GET /citas/:id/paciente -datos del paciente de una cita seleccionada
+GET /citas/:id/especialidad -Datos de la especialidad de la cita seleccionada
+
+
+POST /medico/:id -Registrar un medico 
+POST /paciente/:id -Registrar a un paciente
+POST /especialidad/:id -registrar una especialidad
+
+PUT /medico/:id/activo -modificar el estado del medico
+PUT /especialidad/:id/descripción -modificar la especialidad 
